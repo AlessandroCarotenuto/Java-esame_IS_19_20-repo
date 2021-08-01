@@ -1,0 +1,8 @@
+			TreeMap<Integer, elaborato> preferenzeMap = new TreeMap<Integer,elaborato>(r.getPreferenze());
+
+			Set set = preferenzeMap.entrySet();
+		    Iterator iterator = set.iterator();
+		    
+		    while(iterator.hasNext()) 
+		    {
+		    	Map.Entry<Integer,elaborato> mentry = (Map.Entry<Integer,elaborato>)iterator.next();	
